@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marco Restaurant</title>
+    <script src="https://kit.fontawesome.com/36ad38da64.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ---------------------header------------------- -->
+<header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center py-3 mt-6" >
+            <a href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container  main-menu">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item px-2 active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item px-2">
+                <a class="nav-link" href="#about">About</a>
+                </li>
+            <li class="nav-item px-2 dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Breakfast</a>
+                  <a class="dropdown-item" href="#">Lunch</a>
+                  <a class="dropdown-item" href="#">Dinner</a>
+                </div>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#reserve">Reserve</a>
+                </li>
+            <li class="nav-item px-2">
+            <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item px-2">
+            <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+  <div class="container">
+      <div class="row py-3">
+        <div class="col-md-6 text-white py-2">
+          <div class="col-md-12 mt-4 text-white  py-3">
+              <p>WIDE OPTIONS OF CHOICE</p>
+          </div>
+          <div class="col-md-12 mb-3 text-white">
+            <h1>Delicious Recipes</h1>
+          </div>
+          <div class="col-md-12 text-white mt-4 mb-4 py-2 stcky-section">
+              <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women.Click here for <a href="javascript:void(0)" class="log">Login/Sing up</a></p>
+          </div>
+          <button class="btn btn-primary px-2 py-2 ml-3 mb-5">CHECK OUR MENU</button> 
+        </div>
+        <div  class="col-md-6">
+            <div class="login-form" id="form">
+                <form action="" class="form-box">
+                    <div class="button-box">
+                        <div id="bttn" class="btttn"></div>
+                        <button class="toggle-btn text-center" onclick="login()">Log In</button>
+                        <button class="toggle-btn ml-3" onclick="register()">Sign Up</button>
+                    </div>
+                    <div class="social-icon text-center">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-pinterest" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </div>
+                    <div id="login" class="login">
+                        <input type="email" class="form-control mt-2 mb-2" placeholder="Email Address" onfocus="this.placeholder = ''" required>
+                        <input type="password" class="form-control mt-2 mb-2" placeholder="Password" onfocus="this.placeholder = ''"  required>
+                        <input type="checkbox" class="check-box"><span>Rememner Password</span>
+                        <button class="submit-bttn py-2 px-5 ml-auto">Log In</button>
+                    </div>
+                    <div id="signup" class="login">
+                        <input type="text" class="form-control mt-2 mb-2" placeholder="Full Name" onfocus="this.placeholder = ''">
+                        <input type="email" class="form-control mt-2 mb-2" placeholder="Email Address" onfocus="this.placeholder = ''" required>
+                        <input type="password" class="form-control mt-2 mb-2" placeholder="Password" onfocus="this.placeholder = ''"  required>
+                        <input type="password" class="form-control mt-2 mb-2" placeholder="Confirm Password" onfocus="this.placeholder = ''"  required>
+                        <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                        <button class="submit-bttn py-2 px-5 ml-auto">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </div>
+   </div>
+</header>
+    <!-- ---------------------about------------------- -->
+<section id="about" class="about">
+    <div class="container  mb-3 mt-5">
+        <div class="row">
+            <div class="col-md-6 mt-5">
+                <h2 class="py-3">About Our Story</h2>
+                <p class="py-2 text-muted">Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="btn btn-primary px-2 py-2 mb-5">VIEW OUR MENU</button> 
+            </div>
+            <div class="col-md-6">
+                <img src="images/food-06.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+   <!-- ---------------------menu------------------- -->
+<section id="menu" class="menu mb-5 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center py-3">
+                <h2>What kind of Foods we serve for you</h2>
+                <p class="py-2 text-muted">Who are in extremely love with eco friendly system.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <ul class="col-md-12 list-unstyled filter-wrap  filters mt-5 mb-3 ">
+                <li data-filter="all">ALL MENU</li>
+                <li data-filter=".breakfast">BREAKFAST</li>
+                <li data-filter=".lunch">LUNCH</li>
+                <li data-filter=".dinner">DINNER</li>
+                <li data-filter=".lunch">COUPLE SPECIAL</li>
+                <li data-filter=".dinner">BUFFET</li>
+            </ul>
+        </div>
+        <div class="row menu mb-5">
+            <div class="col-md-6 mix lunch py-3">
+                <div class="title-box d-flex justify-content-between">
+                    <h4>Cappuccion</h4>
+                    <span class="ml-auto">$49</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-6 mix dinner lunch py-3 breakfast" >
+                <div class="title-box d-flex justify-content-between">
+                    <h4>Cappuccion</h4>
+                    <span class="ml-auto">$49</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-6 item3 mix py-3 breakfast">
+                <div class="title-box d-flex justify-content-between">
+                    <h4>Cappuccion</h4>
+                    <span class="ml-auto">$49</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-6 dinner mix py-3 lunch ">
+                <div class="title-box d-flex justify-content-between">
+                    <h4>Chowmin</h4>
+                    <span class="ml-auto">$49</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-6 dinner lunch py-3 mix ">
+                <div class="title-box d-flex justify-content-between">
+                    <h4>Fried Rice</h4>
+                    <span class="ml-auto">$49</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-6 lunch mix py-3 ">
+                <div class="title-box d-flex justify-content-between">
+                    <h4>Pizza</h4>
+                    <span class="ml-auto">$49</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-6  mix  breakfast py-3 lunch ">
+                <div class="title-box d-flex justify-content-between">
+                    <h4>Cappuccion</h4>
+                    <span class="ml-auto">$49</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-6  mix  breakfast py-3 lunch">
+                <div class="title-box d-flex justify-content-between">
+                    <h4>Burger</h4>
+                    <span class="ml-auto">$49</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-6  mix  breakfast py-3 dinner">
+                <div class="title-box d-flex justify-content-between">
+                    <h4>Cappuccion</h4>
+                    <span class="ml-auto">$49</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-6  mix  breakfast py-3 dinner">
+                <div class="title-box d-flex justify-content-between">
+                    <h4>Pasta</h4>
+                    <span class="ml-auto">$49</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+   <!-- ---------------------reserve------------------- -->
+<section id="reserve" class="reserve">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 text-white ">
+                <h2 class="reserve-txt py-5">
+                    Reserve Your Seats to Confirm if You Come with Your Family
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+            </div>
+            <div class="col-md-5 ml-auto  mt-5 mb-5">
+                <form class="form-box" action="">
+                    <input type="text" class="form-control mt-2 mb-2" placeholder="Full Name" onfocus="this.placeholder = ''">
+                    <input type="email" class="form-control mt-2 mb-2" placeholder="Email Address" onfocus="this.placeholder = ''">
+                    <input type="text" class="form-control mt-2 mb-2" placeholder="Phone Number" onfocus="this.placeholder = ''">
+                    <input type="text" class="form-control  mt-2 mb-2 date-picker" name="date" placeholder="Select Date & time">	
+                    <select class="form-control">
+                        <option data-display="">Select Event</option>
+                        <option value="1">Event One</option>
+                        <option value="2">Event Two</option>
+                        <option value="3">Event Three</option>
+                        <option value="4">Event Four</option>
+                    </select>
+                    <button class="btn btn-primary px-4 py-2 mt-5 mb-3">Reserve</button> 
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+   <!-- ---------------------gallery------------------- -->
+<section>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <h2>Food and Customer Gallery</h2>
+                <p class="py-2 text-muted">Who are in extremely love with eco friendly system.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row menu">
+            <div class="col-md-4 mix dinner text-center">
+                <img src="images/food-01.jpg" alt="">
+                <h5>Kabab</h5>
+            </div>
+            <div class="col-md-4 mix dinner breakfast lunch text-center">
+                <img src="images/food-02.jpg" alt="">
+                <h5>Kabab</h5>
+            </div>
+            <div class="col-md-4 mix dinner text-center">
+                <img src="images/food-03.jpg" alt="">
+                <h5>Kabab</h5>
+            </div>
+            <div class="col-md-4 mix dinner lunch text-center">
+                <img src="images/food-04.jpg" alt="">
+                <h5>Kabab</h5>
+            </div>
+            <div class="col-md-4 mix lunch breakfast text-center">
+                <img src="images/food-05.jpg" alt="">
+                <h5>Kabab</h5>
+            </div>
+            <div class="col-md-4 mix lunch text-center">
+                <img src="images/food-08.jpg" alt="">
+                <h5>Kabab</h5>
+            </div>
+            <div class="col-md-4 mix dinner breakfast lunch text-center">
+                <img src="images/food-07.jpg" alt="">
+                <h5>Kabab</h5>
+            </div>
+            <div class="col-md-4 mix dinner breakfast text-center">
+                <img src="images/food-03.jpg" alt="">
+                <h5>Kabab</h5>
+            </div>
+            <div class="col-md-4 mix dinner breakfast text-center">
+                <img src="images/food-05.jpg" alt="">
+                <h5>Kabab</h5>
+            </div>
+        </div>
+    </div>
+</section>
+   <!-- ---------------------review------------------- -->
+<section id="review">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12 text-center py-5 mt-5">
+                <h2>What Our Customers Say</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row review--bbox text-center owl-carousel">
+            <div class="col-md-6 m-auto">
+                <div class="items">
+                    <div class="single-review mb-5">
+                        <img src="images/ladies 01.jpg" alt="">
+                        <h4>Hulda Sutton</h4>
+                        <div class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>								
+                        </div>	
+                        <p>
+                            “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 m-auto">
+                <div class="items">
+                    <div class="single-review mb-5">
+                        <img src="images/person_2.jpg" alt="">
+                        <h4>Hulda Sutton</h4>
+                        <div class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>								
+                        </div>	
+                        <p>
+                            “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 m-auto">
+                <div class="items">
+                    <div class="single-review mb-5">
+                        <img src="images/person_6.jpg" alt="">
+                        <h4>Hulda Sutton</h4>
+                        <div class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>								
+                        </div>	
+                        <p>
+                            “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 m-auto">
+                <div class="items">
+                    <div class="single-review mb-5">
+                        <img src="images/ladies 01.jpg" alt="">
+                        <h4>Hulda Sutton</h4>
+                        <div class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>								
+                        </div>	
+                        <p>
+                            “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 m-auto">
+                <div class="items">
+                    <div class="single-review mb-5">
+                        <img src="images/man 01.jpg" alt="">
+                        <h4>Hulda Sutton</h4>
+                        <div class="star">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>								
+                        </div>	
+                        <p>
+                            “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <!-- ---------------------blog------------------- -->
+<section id="blog" class="blog">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-12 text-center py-3">
+                <h2>Latest From Our Blog</h2>
+                <p class="py-2 text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo nam dignissimos quisquam reiciendis. Saepe, animi. Praesentium, cum dolorum. Voluptatibus, eum!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="images/food-04.jpg" alt="">
+                    </div>
+                    <p class="date-box py-2 mt-5 ">10 Jan 2018</p>
+                    <a href="#"><h5>Secret of making Heart haped eggs</h5></a>
+                    <p>Inappropriate behavior ipsum dolor sit amet, consectetur.</p>
+                    <div>
+                        <span class="likes py-2"><i class="far fa-thumbs-up"></i> 15 Likes</span>
+                        <span class=" ml-5"><i class="far fa-comment"></i> 02 Comments</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="images/food-02.jpg" alt="">
+                    </div>
+                    <p class="date-box py-2 mt-5 ">10 Jan 2018</p>
+                    <a href="#"><h5>Secret of making Heart haped eggs</h5></a>
+                    <p>Inappropriate behavior ipsum dolor sit amet, consectetur.</p>
+                    <div>
+                        <span class="likes py-2"><i class="far fa-thumbs-up"></i> 15 Likes</span>
+                        <span class=" ml-5"><i class="far fa-comment"></i> 02 Comments</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="images/food-01.jpg" alt="">
+                    </div>
+                    <p class="date-box py-2 mt-5 ">10 Jan 2018</p>
+                    <a href="#"><h5>Secret of making Heart haped eggs</h5></a>
+                    <p>Inappropriate behavior ipsum dolor sit amet, consectetur.</p>
+                    <div>
+                        <span class="likes py-2"><i class="far fa-thumbs-up"></i> 15 Likes</span>
+                        <span class=" ml-5"><i class="far fa-comment"></i> 02 Comments</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="images/food-03.jpg" alt="">
+                    </div>
+                    <p class="date-box py-2 mt-5 ">10 Jan 2018</p>
+                    <a href="#"><h5>Secret of making Heart haped eggs</h5></a>
+                    <p>Inappropriate behavior ipsum dolor sit amet, consectetur.</p>
+                    <div>
+                        <span class="likes py-2"><i class="far fa-thumbs-up"></i> 15 Likes</span>
+                        <span class=" ml-5"><i class="far fa-comment"></i> 02 Comments</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <!-- ---------------------contact------------------- -->
+<section id="contact">
+    <div class="container  py-5">
+        <div class="row ">
+            <div class="col-md-4 mb-5">
+                <h5 class="py-4 mt-3">Opening Hours</h5>
+                <div class="timing py-3">
+                    <span>Monday - Friday</span>
+                    <span class="ml-auto">08.00 am - 10.00 pm</span>
+                </div>
+                <div class="timing py-3">
+                    <span>Saturday</span>
+                    <span class="ml-auto">08.00 am - 8.00 pm</span>
+                </div>
+                <div class="timing py-3">
+                    <span>Sunday</span>
+                    <span class="ml-auto">08.00 am - 8.00 pm</span>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <h5 class="py-4 mt-3">Opening Hours</h5>
+                <p>06, calos calen, sea road, venila, United states of america - 1104</p>
+                <h3>002-9893-656-1054</h3>
+                <h3> 011-5454-145-4845</h3>
+            </div>
+            <div class="col-md-4 mb-5 text-left">
+                <h5 class="py-4 mt-3">Newsletter</h5>
+                <p>You can trust us. we only send promo offers, not a single spam.</p>
+                <div class="srch mb-3">
+                    <input type="text" class="form-control ml-1 mt-2 mb-2 srch-box" onfocus="this.placeholder = ''">
+                    <i class="fas fa-arrow-circle-right float-right"></i>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook pr-3" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-google-plus pr-3" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-pinterest pr-3" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- ---------------------footer------------------- -->
+ <section>
+     <footer>
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12 text-center">
+                     <span class="mb-0">&copy; All right reserverd by Marico Restaurant. Designed By Naiyem.</span>
+                 </div>
+             </div>
+         </div>
+     </footer>
+ </section>
+   <!-- ---------------------script------------------- -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.datetimepicker.full.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/main.js"></script>
+
+    
+</body>
+</html>
